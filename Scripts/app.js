@@ -26,12 +26,6 @@
     // for (var index = 0; index < paragraphElements.length; index++) {
     var paragraphElementsLength = paragraphElements.length;
     for (var index = paragraphElementsLength; index >= 0; index--) {
-        console.log("This is log");
-        console.debug("This is debug");
-        console.error("This is an error!");
-        console.info("This is info");
-        console.warn("This is a warning");
-        console.assert(index < 3 , "index out of bounds; index is " + index);
         if (paragraphElements[index]) {
             paragraphElements[index].innerHTML = paragraphs[index];
 
